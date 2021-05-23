@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Racecar Gym
 
 ![berlin track](docs/racecar_gym.gif)
@@ -122,3 +123,6 @@ Scenarios can also be customized. Have a look at the examples.
 
 ## Notes
 Please note that this is work in progress, and interfaces might change. Also more detailed documentation and additional scenarios will follow.
+=======
+# mf-auto
+>>>>>>> 304e5b03e9a37a1e9b83804363fda2a47f23f2d1
