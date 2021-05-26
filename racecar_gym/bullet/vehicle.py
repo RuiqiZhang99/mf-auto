@@ -52,7 +52,7 @@ class RaceCar(Vehicle):
             self._setup_constraints()
         else:
             pos, orn = pose
-            pos_noise = (random.uniform(-0.5, 0.5), random.uniform(-0.5, 0.5), 0)
+            pos_noise = (random.uniform(-0.2, 0.2), random.uniform(-0.2, 0.2), 0)
             pos_zip = zip(pos, pos_noise)
             reset_pos = tuple(map(sum, pos_zip))
             pybullet.resetBasePositionAndOrientation(self._id, reset_pos, pybullet.getQuaternionFromEuler(orn))

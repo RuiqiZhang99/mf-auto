@@ -10,7 +10,7 @@ actuators:
     name: motor
     params:
       velocity_multiplier: 20
-      max_velocity: 5.0
+      max_velocity: 2.5
       max_force: 0.5
 
 sensors:
@@ -37,8 +37,8 @@ sensors:
     frequency: 100
     params:
       gaussian_noise: 0.01
-      max_linear_velocity: 14.0
-      max_angular_velocity: 6.0
+      max_linear_velocity: 10.0
+      max_angular_velocity: 10.0
       debug: False
 
   - type: lidar

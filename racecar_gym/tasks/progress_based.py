@@ -36,6 +36,7 @@ class MaximizeProgressTask(Task):
         agent_state = state[agent_id]
         if self._terminate_on_collision and self._check_collision(agent_state):
             return True
+        # return agent_state['lap'] > self._laps or agent_state['wrong_way']
         return agent_state['lap'] > self._laps or self._time_limit < agent_state['time'] or agent_state['wrong_way']
 
     def _check_collision(self, agent_state):
