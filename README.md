@@ -1,14 +1,21 @@
-<<<<<<< HEAD
-# Racecar Gym
+
+# Racecar Gym (Inhreit from axelbr racecar_gym.git)
 
 ![berlin track](docs/racecar_gym.gif)
 
 A gym environment for a miniature racecar using the bullet physics engine with pybullet.
 ## Installation
 You can install ``racecar_gym`` with the following commands:
-
+For origin env:
 ```shell_script
 git clone https://github.com/axelbr/racecar_gym.git
+```
+For my env and configs:
+```shell_script
+git clone https://github.com/RuiqiZhang99/racecar_gym.git
+```
+And then:
+```shell_script
 cd racecar_gym
 pip install -e .
 ```
@@ -124,5 +131,3 @@ Scenarios can also be customized. Have a look at the examples.
 ## Notes
 Please note that this is work in progress, and interfaces might change. Also more detailed documentation and additional scenarios will follow.
 =======
-# mf-auto
->>>>>>> 304e5b03e9a37a1e9b83804363fda2a47f23f2d1
