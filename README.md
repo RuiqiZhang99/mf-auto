@@ -1,5 +1,5 @@
 
-# Racecar Gym (Inhreit from axelbr racecar_gym.git)
+# Racecar Gym (Inherit from axelbr racecar_gym.git)
 
 ![berlin track](docs/racecar_gym.gif)
 
